@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="/static/css/layout.css" rel="stylesheet" type="text/css">
+
+    {% block css %} {% endblock %}
+</head>
+<body>
+    <div class="header ">
+        <div class="headertitle">资产管理系统</div>
+
+    </div>
+    <div class="pgbody">
+        <div class="nav">
+            <ul class="nav-menu">
+                <li class="navasset">资产管理</li>
+                    <li class="asssetli"><a>资产概要</a></li>
+                    <li><a>资产列表</a></li>
+                    <li><a>资产变更</a></li>
+                <li class="typeasset">资产录入</li>
+                    <li><a>合同</a></li>
+                    <li><a>资产编号</a></li>
+                 <li class="liucheng">流程管理</li>
+                    <li><a>test1</a></li>
+                    <li><a>test1</a></li>
+                <li class="assettag">标签管理</li>
+                    <li><a>test1</a></li>
+                    <li><a>test1</a></li>
+                <li class="usercenter">用户中心</li>
+            </ul>
+
+        </div>
+        <div class="content">
+            {% block right %} {% endblock %}
+        </div>
+
+    </div>
+    {% block js %} {% endblock %}
+</body>
+</html>

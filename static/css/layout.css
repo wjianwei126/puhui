@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+}
+.left{
+    float:left;
+}
+.hide{
+    display: None;
+}
+.header{
+    width: auto;
+    height:80px;
+    background-color: #003399;
+}
+.pgbody{
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #ddd;
+
+}
+.nav {
+    border: 0;
+    border-radius: 24px;
+    width:160px;
+    background-color: #006dcc;
+    height: auto!important;
+    padding-bottom: 0;
+}
+.headertitle{
+    text-align: center;
+    color: #62c462;
+    line-height: 50px;
+}
+.pgbody .nav .nav-menu li{
+    list-style-type:none;
+    display: block;
+    border: 0 solid ;
+    padding:10px;
+}
